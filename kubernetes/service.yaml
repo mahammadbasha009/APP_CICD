@@ -1,0 +1,13 @@
+# NodePort is intentionally simple for learning/local Kubernetes.
+apiVersion: v1
+kind: Service
+metadata:
+  name: simple-app-service
+spec:
+  type: NodePort
+  selector:
+    app: simple-app
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 30080

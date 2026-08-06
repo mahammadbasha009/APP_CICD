@@ -1,0 +1,11 @@
+target/
+*.log
+.env
+*.pem
+
+.idea/
+.vscode/
+
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
