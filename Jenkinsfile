@@ -20,7 +20,7 @@ pipeline {
 
         // IMPORTANT:
         // Replace this with your actual 12-digit AWS Account ID
-        AWS_ACCOUNT_ID = 'REPLACE_AWS_ACCOUNT_ID'
+        AWS_ACCOUNT_ID = '746491202703'
 
         ECR_REPOSITORY = 'simple-app'
 
